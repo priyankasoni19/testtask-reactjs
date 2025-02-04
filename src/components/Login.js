@@ -41,20 +41,7 @@ export default function Login() {
                                 type="button"
                                 className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500"
                             >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="h-5 w-5"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        d="M15 12h.01M12 12h.01M9 12h.01M4.318 4.318a9 9 0 1112.728 12.728A9 9 0 014.318 4.318z"
-                                    />
-                                </svg>
+                                <i className="fa fa-eye-slash"></i>
                             </button>
                         </div>
                     </div>
@@ -74,7 +61,7 @@ export default function Login() {
                             className="flex items-center px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         >
                             <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRkRFuG-FebXK8BQPEo80Ai_KGWyMPm6UT6w&s"
                                 alt="Google"
                                 className="h-5 w-5 mr-2"
                             />
@@ -85,14 +72,11 @@ export default function Login() {
                             type="button"
                             className="flex items-center px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1724px-Apple_logo_grey.svg.png"
+                                alt="Apple"
                                 className="h-5 w-5 mr-2"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                                <path d="M16 4v16H8V4h8m-1-2H9a2 2 0 00-2 2v16a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2z" />
-                            </svg>
+                            />
                             Apple
                         </button>
                     </div>
