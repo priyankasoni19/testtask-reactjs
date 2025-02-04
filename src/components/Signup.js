@@ -52,35 +52,9 @@ export default function Signup() {
                                 className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500"
                             >
                                 {showPassword ? (
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth="2"
-                                            d="M13.875 18.825A10.05 10.05 0 0112 19c-5.523 0-10-4.477-10-10S6.477 0 12 0c2.255 0 4.327.742 6.006 1.997M15 12h.01M9 12h.01M12 12h.01"
-                                        />
-                                    </svg>
+                                    <i className="fa fa-eye"></i>
                                 ) : (
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth="2"
-                                            d="M15 12h.01M12 12h.01M9 12h.01M4.318 4.318a9 9 0 1112.728 12.728A9 9 0 014.318 4.318z"
-                                        />
-                                    </svg>
+                                    <i className="fa fa-eye-slash"></i>
                                 )}
                             </button>
                         </div>
@@ -102,36 +76,11 @@ export default function Signup() {
                                 onClick={() => setShowConfirmPassword(!showConfirmPassword)}
                                 className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500"
                             >
+
                                 {showConfirmPassword ? (
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth="2"
-                                            d="M13.875 18.825A10.05 10.05 0 0112 19c-5.523 0-10-4.477-10-10S6.477 0 12 0c2.255 0 4.327.742 6.006 1.997M15 12h.01M9 12h.01M12 12h.01"
-                                        />
-                                    </svg>
+                                    <i className="fa fa-eye"></i>
                                 ) : (
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-5"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth="2"
-                                            d="M15 12h.01M12 12h.01M9 12h.01M4.318 4.318a9 9 0 1112.728 12.728A9 9 0 014.318 4.318z"
-                                        />
-                                    </svg>
+                                    <i className="fa fa-eye-slash"></i>
                                 )}
                             </button>
                         </div>
